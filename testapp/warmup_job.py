@@ -1,4 +1,8 @@
+import argparse
 import time
+
+parser = argparse.ArgumentParser(description="Warmup test job")
+args = parser.parse_args()
 
 print("Warmup job started", flush=True)
 
